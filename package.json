@@ -1,0 +1,29 @@
+{
+  "name": "jd-ppt-cli",
+  "version": "1.0.3",
+  "description": "a cli tool to transform markdown to ppt",
+  "main": "src/cli.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "ppt": "node src/cli.js"
+  },
+  "bin": {
+    "ppt": "src/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "connect": "^3.7.0",
+    "ejs": "^3.0.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.2",
+    "open": "^7.0.3",
+    "request": "^2.88.2",
+    "serve-static": "^1.14.1",
+    "yargs": "^15.3.1"
+  }
+}
