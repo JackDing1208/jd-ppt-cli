@@ -19,7 +19,7 @@
     "cheerio": "^1.0.0-rc.3",
     "connect": "^3.7.0",
     "ejs": "^3.0.1",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-attrs": "^3.0.2",
     "open": "^7.0.3",
     "request": "^2.88.2",
